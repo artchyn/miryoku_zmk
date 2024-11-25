@@ -1,0 +1,7 @@
+# Copyright 2021 Manna Harbour
+# https://github.com/artchyn/miryoku_zmk
+
+outboard_repository=artchyn/zmk-config
+outboard_ref=main
+outboard_from=boards/shields/skeletyl
+outboard_to=boards/shields/skeletyl
