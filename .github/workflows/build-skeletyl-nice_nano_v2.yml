@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Example for Skeletyl nice_nano_v2 using minidox layout'
+name: 'Build for Skeletyl nice_nano_v2'
 on:
   push:
     branches:
