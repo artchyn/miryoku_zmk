@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - "skeletyl_nice_nano_v2"
+  workflow_dispatch:
 jobs:
   build:
     uses: ./.github/workflows/main.yml
