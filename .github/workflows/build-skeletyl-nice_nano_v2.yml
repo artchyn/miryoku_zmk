@@ -11,4 +11,3 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["skeletyl_left","skeletyl_right"]'
-      alphas: '["qwerty"]'
