@@ -1,0 +1,13 @@
+name: 'Build for Skeletyl nice_nano_v2'
+on:
+  push:
+    branches:
+      - "skeletyl_nice_nano_v2"
+  workflow_dispatch:
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["skeletyl_left","skeletyl_right"]'
